@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami</title>
+    <link rel="stylesheet" href="free.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="f2.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="ekskul.html">Ekstrakulikuler</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+</section>
+
+<!-----about us------>
+
+<section class="about">
+    <h1>VISI & MISI</h1>
+    <img src="A4.jpg">
+    <h2>VISI</h2>
+    <p>SMK ISLAM ASSA'ADATUL ABADIYAH mendidik siswa/siswinya: "Unggul dalam Budi Pekerti, untuk Hidup Mandiri, Bermartabat dan Berarti".</p>
+    <h2>MISI</h2>
+    <p>1. Menumbuhkan penghayatan terhadap ajaran agama Islam secara kafah dan mengamalkannya dalam kehidupan sehari-hari.</p>
+    <p>2. Melaksanakan pembelajaran dan bimbingan secara efektif, sehingga setiap siswa memiliki pengetahuan dan keterampilan yang dibutuhkan.</p>
+    <p>3. dan membantu siswa untuk mengenali potensi dirinya, sehingga dapat dikembangkan secara optimal.</p>
+    <p>4. Menumbuhkan semangat disiplin secara intensif kepada seluruh warga sekolah</p>
+
+
+
+<!--------kontak------->
+
+<section class="kontak">
+    <h4>Sosial Media</h4>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-youtube"></i>
+    <p>(Hak Cipta &copy; 2022. <b>SMK Assa'adatul Abadiyah</b> Pengembangan oleh kelompok 5.)</p>
+    </div>
+</section>
+
+<!------Javascript for toggle menu------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <link rel="stylesheet" href="free.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="2.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="ekskul.html">Ekstrakulikuler</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>SMK Assa'adatul Abadiyah (AA)</h1>
+    <p>UNGGUL DALAM BUDI PEKERTI, UNTUK HIDUP MANDIRI</p>
+</div>
+</section>
+<!-----about------>
+<section class="galeri">
+<h1>PENERIMAAN PESERTA DIDIK BARU TAHUN AJARAN 2022/2023</h1>
+<p>PROGRAM KEAHLIHAN</p>
+    <div class="row">
+        <div class="galeri-col">
+            <img src="mm.jpg">
+            <div class="layer">
+                <h3>Multimedia</h3>
+            </div>
+        </div>
+        <div class="galeri-col">
+            <img src="pm.jpg">
+            <div class="layer">
+                <h3>Bisnis Daring & Pemasaran</h3>
+            </div>
+        </div>
+        <div class="galeri-col">
+            <img src="tkj.jpg">
+            <div class="layer">
+                <h3>Teknik Komputer & Jaringan</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------->
+<section class="about">
+    <div class="row">
+        <div class="about-col">
+            <h3>Bebas Uang Pangkal</h3>
+        </div> 
+        <div class="about-col">
+            <h3>Terakreditasi 'A'</h3>
+        </div>
+        <div class="about-col">
+            <h3>Fasilitas Lengkap</h3>
+        </div>  
+    </div>
+</section>
+<!--------Blog Sejarah------->
+<section class="blog-konten">
+    <h1>Sejarah</h1>
+    <div class="row">
+        <div class="blog-kiri">
+            <img src="5.jpg">
+            <p>SMKS AA berdiri pada tahun 1984, yang berdiri di atas tanah seluas 1237 m2 (Gedung Pusat) dan 2900 m2 (Gedung Cabang).
+                Pada era tahun 1990an SMKS AA dikenal dengan sebutan SMEA AA (Sekolah Menengah Ekonomi Atas)
+             </p>
+             <br>
+             <p>Namun pada tahun 2011 SMKS Islam Assa'adatul Abadiyah menambah jurusan Kompetensi Keahlian di Bidang Keahlian Teknik Informasi dan Komunikasi yaitu Kompetensi Keahlian Teknik Komputer dan Jaringan.
+                Dan pada tahun 2018 SMKS Islam Assa'adatul Abadiyah menambah jurusan Kompetensi Keahlian di Bidang Keahlian Teknik Informasi dan Komunikasi yaitu Kompetensi Keahlian Multimedia.
+                Sehingga pada saat ini untuk Jurusan yang tersedia di SMKS Islam Assa'adatul Abadiyah ada 3, yaitu :</p>
+             <br>
+             <p>1. Bisnis daring & Pemasaran (PM)
+                 2. Teknik Komputer dan Jaringan (TKJ)
+                 3. Multimedia (MM)</p>
+         </div>
+         <div class="blog-kanan"></div>
+     </div>
+</section>
+<!--------kontak------->
+
+<section class="kontak">
+    <h4>Sosial Media</h4>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-youtube"></i>
+    <p>(Hak Cipta &copy; 2022. <b>SMK Assa'adatul Abadiyah</b> Pengembangan oleh kelompok 5.)</p>
+    </div>
+    </div>
+</section>
+<!------Javascript for toggle menu------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

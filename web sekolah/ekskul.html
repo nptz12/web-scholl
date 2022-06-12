@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekstrakulikuler</title>
+    <link rel="stylesheet" href="free.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="f2.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="ekskul.html">Ekstrakulikuler</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+</section>
+
+<!----Ekstrakulikuler---->
+
+<section class="ekskul">
+    <h1>Ekstrakulikuler</h1>
+    <p>Berikut Salah satu Ekstrakulikuler di sekolah</p>
+
+    <div class="row">
+        <div class="ekskul-col">
+            <img src="paskib.jpeg">
+            <h2>Paskibraka</h2>
+            <p>Paskibra ialah suatu ekstrakurikuler yang dapat menjadi media bagi anggotanya untuk membentuk nilai penting dalam diri.</p>
+        </div>
+        <div class="ekskul-col">
+            <img src="futsal.jpg">
+            <h2>Futsal</h2>
+            <p>Futsal diadakan dengan tujuan menyediakan wadah untuk siswa menyalurkan hobinya&menghadirkan corak positif kepada para siswa</p>
+        </div>
+        <div class="ekskul-col">
+            <img src="Pramuka.jpg">
+            <h2>Pramuka</h2>
+            <p>Kegiatan Pramuka merupakan ekstrakurikuler wajib artinya seluruh peserta didik di sekolah wajib untuk mengikuti kegiatan ini.</p>
+        </div>
+        <div class="ekskul-col">
+            <img src="basket.jpg">
+            <h2>Basket</h2>
+            <p>bola basket merupakan salah satu kegiatan ekskul olahraga yang sangat di minati oleh peserta didik. </p>
+        </div>
+    </div>
+
+</section>
+
+<!--------kontak------->
+
+<section class="kontak">
+    <h4>Sosial Media</h4>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-youtube"></i>
+    <p>(Hak Cipta &copy; 2022. <b>SMK Assa'adatul Abadiyah</b> Pengembangan oleh kelompok 5.)</p>
+    </div>
+</section>
+
+<!------Javascript for toggle menu------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
